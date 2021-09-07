@@ -31,3 +31,11 @@ body {
 .text-primary {
   color: var(--color-primary) !important;
 }
+
+a:not([class]) {
+  text-decoration: none;
+}
+
+a:not([class]):hover {
+  text-decoration: underline;
+}
